@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Stopwatch</title>
+    <style>
+      #div-clock {
+        position: relative;
+        left: 0px;
+        top: 0px;
+      }
+    </style>
+</head>
+<body>
+    <label><input id="minutes-input" type="number" value="0" min="0" style="width:50px"> minutes</label>
+    <label><input id="seconds-input" type="number" value="0" min="0" style="width:50px"> seconds</label>
+    <br><br>
+    <button id="start-button" type="button">Start/Restart</button>
+    <button id="stop-button" type="button">Stop</button>
+    <button id="continue-button" type="button">Continue</button>
+    <button id="reset-button" type="button">Reset</button>
+    <p id="count-down-watch">Please type in a time value</p> <br><br>
+
+    <div id="div-clock" style="border: 1px solid grey">
+      <canvas id="clock" style="border: 1px solid grey">Yo browser's trash</canvas>
+    </div>
+
+    <label>Countdown ends at: <input id="date-time-input" type="datetime-local" ></label>
+    <br><br>
+    <button id="start-target-button"type="button">Start/Restart</button>
+    <button id="stop-target-button" type="button">Stop/Reset</button>
+    <p id="target-watch">Count down will be here</p> <br><br>
+
+    <button id="start-up-button" type="button">Start</button>
+    <button id="stop-up-button" type="button">Stop</button>
+    <button id="continue-up-button" type="button">Continue</button>
+    <button id="reset-up-button" type="button">Reset</button>
+    <p id="count-up-watch">Timer will be here</p> <br><br>
+
+
+    <script type = "text/javascript" src="/Users/billke/Downloads/watches.js"></script>
+
+</body>
+</html>
